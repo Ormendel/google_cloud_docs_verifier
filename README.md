@@ -14,4 +14,4 @@ pip install reportlab pymupdf arabic-reshaper python-bidi
 https://fonts.google.com/specimen/Alef
 ```
 
-That's it for now
+TODO: Machine learning model
