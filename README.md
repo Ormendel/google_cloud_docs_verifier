@@ -13,3 +13,5 @@ pip install reportlab pymupdf arabic-reshaper python-bidi
 ```bash
 https://fonts.google.com/specimen/Alef
 ```
+
+That's it for now
