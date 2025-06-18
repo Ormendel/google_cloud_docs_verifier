@@ -1,1 +1,3 @@
-# google_cloud_docs_verifier
+## Install packages
+
+pip install google-cloud-vision google-cloud-storage python-dotenv
