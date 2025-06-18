@@ -33,11 +33,13 @@ def validate_all_pdfs(folder_path="data"):
 
     for file_name in pdf_files:
         file_path = os.path.join(folder_path, file_name)
+        print(f"Verifying {file_path}...\n")
         is_valid, missing = validate_pdf(file_path)
         if is_valid:
-            print(f"✅ {file_name} תקין.")
+            print(f"{file_path}: OK ✅")
         else:
             print(f"⚠️ {file_name} לא תקין. חסרים שדות: {', '.join(missing)}")
+        print("")
 
 
 if __name__ == "__main__":
