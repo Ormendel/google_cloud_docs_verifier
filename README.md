@@ -6,7 +6,5 @@ python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 # Install required Python packages
-pip install \
-    google-cloud-vision \
-    google-cloud-storage \
-    python-dotenv
+pip install reportlab pymupdf arabic-reshaper python-bidi
+```
